@@ -1,6 +1,7 @@
 package vehiculos;
 
 public class Camion extends Vehiculo {
+	
 	private int ejes;
 	private static int cantidadVehiculosCreados = 0;
 	
@@ -25,5 +26,4 @@ public class Camion extends Vehiculo {
 	public static void sumaCantidadVehiculos() {
 		cantidadVehiculosCreados++;
 	}
-	
 }

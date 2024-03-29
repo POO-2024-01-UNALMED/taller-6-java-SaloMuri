@@ -1,6 +1,7 @@
 package vehiculos;
 
 public class Camioneta extends Vehiculo{
+	
 	private boolean volco;
 	private static int cantidadVehiculosCreados = 0;
 	
@@ -25,5 +26,4 @@ public class Camioneta extends Vehiculo{
 	public static void sumaCantidadVehiculos() {
 		cantidadVehiculosCreados++;
 	}
-	
 }
